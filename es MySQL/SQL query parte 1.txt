@@ -9,7 +9,7 @@
 
 4. Seleziona tutti gli ospiti il cui nome inizia con la D
     SELECT * FROM `ospiti` WHERE `name` LIKE 'D%';
-
+                           
 5. Calcola il totale incassato degli ordini accepted
     SELECT SUM(`price`) AS 'Total_amount' FROM `pagamenti` WHERE `status` = 'accepted';
 
